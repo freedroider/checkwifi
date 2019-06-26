@@ -3,8 +3,6 @@ package com.spacewhale.wifitester.ui
 import android.content.Context
 import android.util.AttributeSet
 import android.widget.LinearLayout
-import android.widget.TextView
-import com.airbnb.epoxy.CallbackProp
 import com.airbnb.epoxy.ModelView
 import com.spacewhale.wifitester.R
 

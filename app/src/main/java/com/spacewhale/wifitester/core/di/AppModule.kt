@@ -8,6 +8,6 @@ import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
 
 val appModule = module {
-    viewModel { ScanWiFiViewModel(WifiSignal(), get())}
+    viewModel { ScanWiFiViewModel(WifiSignal(), get()) }
     single<WiFiScanner> { WiFiScannerManager() }
 }
